@@ -1,7 +1,7 @@
 # infoClientes
  Info de clientes para soporte técnico
 
-La idea es visualizar con un solo pantallazo los datos más importantes de cada cliente, con estos datos soporte puede dar un mejor servicio encontrando la data más rápidamente.
+La idea es visualizar con un solo pantallazo los datos más importantes de cada cliente para que soporte puede dar un mejor servicio encontrando la información rápidamente.
 
 ![vista previa](snapshot.png)
 
