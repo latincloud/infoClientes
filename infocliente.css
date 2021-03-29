@@ -1,0 +1,108 @@
+/* Importo fuente Roboto light */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+/* estilos dentro del wrapper */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+    background: #FFF;
+    color: #827F7F;
+    margin: 0;
+}
+
+.search-wrapper {
+    text-align: center;
+}
+
+.search-wrapper h3 {
+    font-size: 1.2em;
+}
+
+.search-wrapper h5 {
+    font-size: .7em;
+}
+
+.searchbox input {
+    -webkit-appearance: none;
+    outline: none;
+    width: 30em;
+    height: 2.9em;
+    border-radius: 4px 0 0 4px;
+    background-color: #E4E4E4;
+    border: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.search-icon {
+    padding: .58em .5em .64em .5em;
+    color: #FFF;
+    background: #E4E4E4;
+    border-radius: 0 4px 4px 0;
+    margin-left: -4px;
+}
+
+/* Section user info */
+
+#user-unselected {
+    background: rgba(055, 068, 202, 0.6);
+    min-height: 30em;
+    margin-top: 5em;
+    border-top-color: #626161;
+    border-top-width: .6em;
+    border-top-style: solid;
+}
+
+.info-user-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.user-icon-wrapper {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-bottom: -9em;
+    margin-top: 6em;
+}
+
+.user-icon {
+    width: 8em;
+    height: 8em;
+    text-align: center;
+    background: #626161;
+    color:#EFEFEF;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4em;
+}
+
+.user-icon i {
+    font-size: 7em;
+}
+
+/* section cards */
+
+.cards-wrapper {
+    max-width: 54em;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 4em
+}
+
+.card {
+    background: #EFEFEF;
+    min-height: 14em;
+    min-width: 25em;
+    border-radius: 6px;
+    margin: 1em;
+    box-shadow: 12px 12px 2px 1px #626161;
+}
