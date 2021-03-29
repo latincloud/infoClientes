@@ -3,6 +3,8 @@
 
 La idea es visualizar con un solo pantallazo los datos más importantes de cada cliente, con estos datos soporte puede dar un mejor servicio encontrando la data más rápidamente.
 
+![vista previa](snapshot.png)
+
 ## Front
 
 Este repo contiene el markup que luego va a ser implementado dentro de WHMCS.

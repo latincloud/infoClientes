@@ -105,4 +105,20 @@ textarea:focus, input:focus{
     border-radius: 6px;
     margin: 1em;
     box-shadow: 12px 12px 2px 1px #626161;
+    /* center the id card icon */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card i {
+    font-size: 8em;
+    color: #827F7F;
+    opacity: 0.2;
+}
+
+.card p {
+    font-size: .8em;
+    margin-top: unset;
 }
