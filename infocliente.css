@@ -28,7 +28,7 @@ body {
     -webkit-appearance: none;
     outline: none;
     width: 30em;
-    height: 2.9em;
+    height: 35px;
     border-radius: 4px 0 0 4px;
     background-color: #E4E4E4;
     border: none;
@@ -39,7 +39,7 @@ textarea:focus, input:focus{
 }
 
 .search-icon {
-    padding: .58em .5em .64em .5em;
+    padding: 7.5px 7px 8.5px 7px;
     color: #FFF;
     background: #E4E4E4;
     border-radius: 0 4px 4px 0;
@@ -48,7 +48,26 @@ textarea:focus, input:focus{
 
 /* Section user info */
 
-#user-unselected {
+.user-id-wrapper {
+    width: 52em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.selected-user-id {
+    width: 13em;
+    height: 2em;
+    background: #EF476F;
+    color: #FFF;
+    border-radius: 6px 100px 12px 6px;
+    display: flex;
+    align-items: center;
+    padding: .4em 2em .4em 1em;
+    margin: 1em 0 -4em 0;
+}
+
+#user-area {
     background: rgba(055, 068, 202, 0.6);
     min-height: 30em;
     margin-top: 5em;
@@ -111,6 +130,13 @@ textarea:focus, input:focus{
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+/* Cuando no hay ningún usuario seleccionado: */
+
+.unselected {
+    visibility: hidden;
 }
 
 .card i {
