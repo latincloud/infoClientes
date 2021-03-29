@@ -95,7 +95,8 @@ textarea:focus, input:focus{
     max-width: 54em;
     display: flex;
     flex-flow: row wrap;
-    margin: 4em
+    margin: 4em;
+    justify-content: center;
 }
 
 .card {
