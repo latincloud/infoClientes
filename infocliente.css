@@ -190,9 +190,26 @@ textarea:focus, input:focus{
     font-size: 1.4em;
 }
 
+.check-wrapper {
+    max-width: 22em;
+}
+
+.check-wrapper ul {
+    padding: 0;
+    list-style: none;
+    max-width: 19em;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* Checkbox element, when checked */
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 1px #4CAF50;
+  }
+
 /* Ajustes mínimos versión mobile */
 
-@media (max-width: 62em){
+@media (max-width: 62em) {
     .user-id-wrapper {
         width: unset;
         justify-content: center;
