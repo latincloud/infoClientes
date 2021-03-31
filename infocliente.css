@@ -12,6 +12,23 @@ body {
     margin: 0;
 }
 
+.btn {
+    padding: .5em 2em;
+    border-radius: 4px;
+    margin: .6em;
+}
+
+.btn-green {
+    background: #4CAF50;
+    color: #FFF;
+}
+
+.center-button {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
 .search-wrapper {
     text-align: center;
 }
@@ -119,6 +136,7 @@ textarea:focus, input:focus{
 }
 
 .card {
+    min-width: 25em;
     background: #EFEFEF;    
     border-radius: 6px;
     margin: 1em;
@@ -147,15 +165,29 @@ textarea:focus, input:focus{
 
 .card p {
     font-size: .8em;
-    margin-top: unset;
 }
 
 /* Primera tarjeta: arriba a la izquierda. Info de Usuario */
 
-.user-info p {
+.selected {
+    margin: 2em 0 2em 2em;
+}
+
+.user-info p {    
     text-align: left;
-    font-size: .7em;
+    font-size: 1em;
+    line-height: .4;
     color: #000;
+}
+
+.user-info span {
+    font-weight: bold;
+}
+
+/* Segunda tarjeta: arriba a la derecha. Productos y Servicios contratados */
+
+.user-services h4 {
+    font-size: 1.4em;
 }
 
 /* Ajustes mínimos versión mobile */
