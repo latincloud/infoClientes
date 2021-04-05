@@ -188,6 +188,7 @@ textarea:focus, input:focus{
 
 .user-services h4 {
     font-size: 1.4em;
+    margin-bottom: .2em;
 }
 
 .check-wrapper {
@@ -200,6 +201,18 @@ textarea:focus, input:focus{
     max-width: 19em;
     display: flex;
     flex-flow: row wrap;
+}
+
+.product-box {
+    max-width: 10em;
+    line-height: 0.4;
+    padding: .3em 0 .3em .9em;
+    color: #FFF;
+    border-radius: 4px;
+}
+
+.active {
+    background: #EF476F;
 }
 
 /* Checkbox element, when checked */
