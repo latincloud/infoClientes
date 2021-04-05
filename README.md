@@ -5,6 +5,8 @@ La idea es visualizar con un solo pantallazo los datos más importantes de cada 
 
 ![vista previa](snapshot.png)
 
+[Avances mockup en GH Pages](https://latincloud.github.io/infoClientes/)
+
 ## Front
 
 Este repo contiene el markup que luego va a ser implementado dentro de WHMCS.
