@@ -59,6 +59,8 @@ i.fas.fa-eye.eye {
     /* Position the tooltip text */
     position: absolute;
     z-index: 1;
+    bottom: -4em;
+    right: -13em;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
@@ -235,6 +237,7 @@ textarea:focus, input:focus{
 
 .check-wrapper {
     max-width: 22em;
+    margin: 0 auto;
 }
 
 .check-wrapper ul {
@@ -248,13 +251,13 @@ textarea:focus, input:focus{
 .products-wrapper {
     display: flex;
     flex-flow: row wrap;
-    max-width: 24em;
+    justify-content: center;
 }
 
 .product-box {
     max-width: 10em;
     line-height: 0.4;
-    padding: .3em .9em;
+    padding: .3em 1.4em;
     color: #FFF;
     border-radius: 4px;
     margin: .5em;
