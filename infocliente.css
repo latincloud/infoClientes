@@ -213,7 +213,7 @@ textarea:focus, input:focus{
 
 /* Primera tarjeta: arriba a la izquierda. Info de Usuario */
 
-.selected {
+.user-info {
     margin: 2em 0 2em 2em;
 }
 
@@ -230,13 +230,13 @@ textarea:focus, input:focus{
 
 /* Segunda tarjeta: arriba a la derecha. Productos y Servicios contratados */
 
-.user-services h4 {
+.card-title {
     font-size: 1.4em;
-    margin-bottom: .2em;
+    margin: 1em 0 1em 2em;
 }
 
 .check-wrapper {
-    max-width: 22em;
+    max-width: 25em;
     margin: 0 auto;
 }
 
@@ -290,6 +290,42 @@ textarea:focus, input:focus{
 /* Checkbox element, when checked */
 input[type="checkbox"]:checked {
     box-shadow: 0 0 0 1px #4CAF50;
+}
+
+/* Tercera tarjeta: abajo a la izquierda. Tabla de Facturación */
+
+p.last-invoice {
+    font-size: .9em;
+    text-align: right;
+    margin-right: 3.2em;
+}
+
+.table-wrapper {
+    margin: 0 auto;
+    max-width: 24em;
+}
+
+.invoice-table {
+    width: 100%;    
+    color: #0F0E0E;
+    padding: 1em;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.invoice-table thead {
+    background: #626161;
+    color: #fff;
+}
+
+.invoice-table tbody {
+    background: #E4E4E4;
+}
+
+.checks-invoice {
+    max-width: 17em;
 }
 
 /* Ajustes mínimos versión mobile */

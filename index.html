@@ -104,16 +104,60 @@
                         </div>
                     </div>                    
                     <div class="card card-bottom-left">
-                        <div class="unselected-wrapper">
-                            <div class="unselected">
-                                <i class="fas fa-id-card"></i>
-                                <p>Ningún cliente seleccionado</p>
+                        <div class="selected invoices">
+                            <h4 class="card-title">Facturación:</h4>
+                            <p class="last-invoice">Última facturación: 10-02-2021</p>
+                            <div class="table-wrapper">
+                                <table class="invoice-table">
+                                    <thead>
+                                        <tr>
+                                            <th>ID Factura</th>
+                                            <th>Fecha</th>
+                                            <th>Servicio</th>
+                                            <th>Estado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>cell1_1</td>
+                                            <td>cell1_2</td>
+                                            <td>cell1_3</td>
+                                            <td>cell1_4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>cell2_1</td>
+                                            <td>cell2_2</td>
+                                            <td>cell2_3</td>
+                                            <td>cell2_4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>cell3_1</td>
+                                            <td>cell3_2</td>
+                                            <td>cell3_3</td>
+                                            <td>cell3_4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>cell4_1</td>
+                                            <td>cell4_2</td>
+                                            <td>cell4_3</td>
+                                            <td>cell4_4</td>
+                                        </tr>
+                                    </tbody>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="check-wrapper checks-invoice">
+                                <ul>
+                                    <li><input type="checkbox" /> <label> Pagas</label></li>
+                                    <li><input type="checkbox" /> <label> Impagas</label></li>
+                                    <li><input type="checkbox" /> <label> Canceladas</label></li>
+                                </ul>
                             </div>
                         </div>  
                     </div>
                     <div class="card card-top-right">
                         <div class="selected user-services">
-                            <h4>Productos y servicios</h4>
+                            <h4 class="card-title">Productos y servicios</h4>
                             <div class="check-wrapper">
                                 <ul>
                                     <li><input type="checkbox" /> <label> Activos</label></li>
