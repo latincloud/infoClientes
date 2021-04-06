@@ -336,7 +336,7 @@ p.last-invoice {
 /* Cuarta tarjeta: abajo a la derecha. Tickets levantados */
 
 .tickets-wrapper {
-    width: 28em;
+    max-width: 28em;
     margin: 0 auto;
 }
 
