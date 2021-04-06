@@ -39,6 +39,7 @@ i.fas.fa-eye.eye {
     display: flex;
     flex-flow: row;
     justify-content: center;
+    margin-bottom: 1em;
 }
 
 .tooltip {
@@ -330,6 +331,47 @@ p.last-invoice {
 
 .checks-invoice {
     max-width: 17em;
+}
+
+/* Cuarta tarjeta: abajo a la derecha. Tickets levantados */
+
+.tickets-wrapper {
+    width: 28em;
+    margin: 0 auto;
+}
+
+.ticket {
+    background: #FFD166;
+    color: #5C5C5C;
+    height: 4em;
+    margin: 1em;
+}
+
+.ticket-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.top h3 {
+    margin: .4em 0 0 .4em;
+    font-size: 1em;
+}
+
+.top i {
+    width: 17px;
+    height: 17px;
+    margin: .4em .4em 0 0;
+    opacity: 1;
+    font-size: 1em;
+    background: #FFFFFF;
+    color: #626161;
+    padding: .2em;
+    border-radius: 4px;
+}
+
+.bottom p {
+    margin: .7em;
 }
 
 /* Ajustes mínimos versión mobile */
