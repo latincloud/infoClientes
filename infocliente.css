@@ -236,8 +236,12 @@ textarea:focus, input:focus{
 }
 
 .check-wrapper {
-    max-width: 25em;
+    max-width: 24em;
     margin: 0 auto;
+}
+
+.check-wrapper input {
+    margin-left: .4em;
 }
 
 .check-wrapper ul {
